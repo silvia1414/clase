@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for Booking'
+define service ZI_Booking_SMP {
+  expose ZI_Booking_SMP as Booking;
+  expose I_Country      as Country;
+}
